@@ -71,6 +71,7 @@ body{
             width: 100%;
             text-align: center;
             margin-top: 20px;
+            
             input{
                 width: 50px;
                 height: 35px;
@@ -80,6 +81,7 @@ body{
                 color: rgb(238, 255, 221);
                 border: none;
                 border-radius: 10px;
+                outline: none;
                 
             }
         }
@@ -116,23 +118,56 @@ body{
                 
             }
         }
+        .img-question{
+            width: 100%;
+            display: flex;
+            margin-top: 20px;
+            img{
+                margin: 0 auto;
+                border-radius: 20px;
+                box-shadow: black -10px 10px 30px;
+                
+                z-index: 1;
+                background-color: black;
+            }
+        }
 
         .vraag-con{
             .vraag{
                 //background-color: red;
                 padding: 30px 5px;
+                font-size: 25px;
+               // background-color: brown;
             }
             .div-input{
                 display: flex;
                 margin-bottom: 50px;
                 .question-input{
-                    background-color: rgba(130, 255, 130, 0.516);
+                    background-color: rgb(19, 114, 0);
+                    color: #fff;
                     margin: 0 auto;
-                    height: 32px;
-                    width: 300px;
-                    border: 1px solid black;
+                    height: 45px;
+                    width: 350px;
+                    border: none;
                     font-size: 22px;
+                    border-radius: 10px;
+                    outline: none;
+                    padding-left: 20px;
     
+                }
+            }
+        }
+        .good-result{
+            .good-result-div-img{
+                width: 100%;
+                display: flex;
+                img{
+                    margin: 0 auto;
+                    margin-top: 20px;
+                    width: 300px;
+                    height: 300px;
+                    border-radius: 50%;
+                    box-shadow: black -10px 10px 40px;
                 }
             }
         }
@@ -140,7 +175,7 @@ body{
     .numbers-puzzle-img{
         width: 100%;
         
-        background-color: rgb(255, 255, 255);
+        background-color: rgba(255, 255, 255, 0);
         display: flex;
         margin-top: 20px;
         img{
@@ -151,6 +186,8 @@ body{
             
         }
     }
+
+    
 }
 
 .hidden{

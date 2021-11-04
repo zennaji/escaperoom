@@ -1,7 +1,7 @@
 
 
 const timer = document.querySelector(".timer");
-const timerStart = 20;
+const timerStart = 10;
 let time = timerStart * 60;
 
 export function updateTimer(){

@@ -1,7 +1,7 @@
 import {updateTimer, getTimer} from './timer.js';
 import {checkQuestionAnswer} from './questionPuzzle.js';
 import {checkPinAnswer} from './numbersPuzzle.js';
-import {containerAnime} from './animation.js';
+import {containerAnime, animetQuestionImg, animetNumImg} from './animation.js';
 
 const intro = document.querySelector("#intro");
 const puzzels = document.querySelectorAll("#puzzel");
@@ -17,6 +17,7 @@ startBtn.addEventListener('click', function(){
     getNext(intro, puzzels[0]);
     getTimer();
     setInterval(updateTimer, 1000);
+    animetQuestionImg();
 
 })
 nextBtns[0].addEventListener('click', function(){
@@ -30,6 +31,8 @@ nextBtns[0].addEventListener('click', function(){
 nextBtns[1].addEventListener('click', function(){
 
     getNext(puzzels[1], puzzels[2] );
+    console.log("Hallllo");
+    animetNumImg();
     
 })
 nextBtns[2].addEventListener('click', function(){
