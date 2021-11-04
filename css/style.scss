@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-$img-width : 450px;
+$img-width : 500px;
 $img-height : 250px;
 
 
@@ -22,18 +22,19 @@ body{
 
     }
     .container{
-        max-width: 920px;
-        width: 90%;
+        max-width: 1200px;
+        width: 100%;
         height: 0px;
         border: solid 1px black;
         margin: 0 auto;
         margin-top: 40px;
         margin-bottom: 20px;
         padding-bottom: 30px;
-        background-color: rgba(231, 253, 212, 0.19);
+        background-color: #1D2026;
+        color: azure;
         
         //transition-duration: 500ms;
-        
+       
         
         .img{
             width: 100%;
@@ -45,9 +46,13 @@ body{
 
             img{
                 width: $img-width;
-                height: $img-height;
+                height: 0;
                 margin: 0 auto;
-                
+                transition-duration: 1000ms;
+                border-radius: 20px;
+                opacity: 0.9;
+                box-shadow: black -10px 10px 30px;
+
                 
                 
             }
@@ -101,14 +106,21 @@ body{
             button{
                 font-size: 25px;
                 width: 100%;
-                height: 100%;
+                height: 40px;
                 margin: 0 auto;
-                color: blue;
-                border: none;background-color: rgb(240, 240, 245);
+                color: rgb(34, 34, 34);
+                border: none;
                 cursor: pointer;
-                background-color: rgba(194, 194, 194, 0.204);
-                border-radius: 10px;
+                background-color: rgb(149, 149, 149);
+                border-radius: 5px;
                 padding: 3px 8px;
+                
+            }
+            button:hover{
+                
+                color: rgb(0, 0, 0);
+                background-color: rgb(240, 240, 240);
+                transition: 2 ease-in-out;
                 
             }
         }
@@ -160,4 +172,52 @@ body{
 }
 .grid{
     display: grid;
+}
+// puzzle 2 style 
+.lamp-container{
+    position: relative;
+    left: 22%;
+    width: 200px;
+}
+.lamp{
+    width: 60%;
+}
+
+.light{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 400px; 
+    margin-left: -45px;
+    
+
+}
+.container_puzzle2{
+    display: flex;
+    flex-direction: row;
+}
+
+.q{
+    float: right;
+    background-color: rgba(240, 255, 255, 0.144);
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 7px;
+}
+.questions{
+    display: flex;
+    flex-direction: column;
+}
+.lamp-container p{
+  display: relative;
+  position: relative;
+  top: 50px;
+  left: 40px;
+  opacity: 2%;
+
+}
+.answer{
+    opacity: 4%;
 }

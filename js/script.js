@@ -2,6 +2,7 @@ import {updateTimer, getTimer} from './timer.js';
 import {checkQuestionAnswer} from './questionPuzzle.js';
 import {checkPinAnswer} from './numbersPuzzle.js';
 import {containerAnime} from './animation.js';
+ 
 
 const intro = document.querySelector("#intro");
 const puzzels = document.querySelectorAll("#puzzel");
@@ -14,32 +15,21 @@ containerAnime();
 
 startBtn.addEventListener('click', function(){
     
-    
     getNext(intro, puzzels[0]);
     getTimer();
     setInterval(updateTimer, 1000);
-    
-    
-    
-
-    
 
 })
 nextBtns[0].addEventListener('click', function(){
-
-    
 
     console.log(checkQuestionAnswer());
     if(checkQuestionAnswer() === true){
         getNext(puzzels[0], puzzels[1] );
     }
 
-    
 })
 nextBtns[1].addEventListener('click', function(){
 
-    
-    
     getNext(puzzels[1], puzzels[2] );
     
 })
@@ -50,8 +40,6 @@ nextBtns[2].addEventListener('click', function(){
     }else{
         console.log('nee');
     }
-
-    
 })
 
 
