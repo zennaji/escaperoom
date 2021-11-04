@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+$img-width : 450px;
+$img-height : 250px;
+
+
+
+body{
+    background-color: rgb(255, 255, 255);
+    .timer{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 35px;
+        font-family: Consolas,monaco,monospace;
+        color: rgb(0, 79, 0);
+        font-weight: bold;
+        
+        transform: scale(1, 1.8);
+
+    }
+    .container{
+        max-width: 920px;
+        width: 90%;
+        height: 0px;
+        border: solid 1px black;
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        padding-bottom: 30px;
+        background-color: rgba(231, 253, 212, 0.19);
+        
+        //transition-duration: 500ms;
+        
+        
+        .img{
+            width: 100%;
+            display: flex;
+            margin-top: 30px;
+            margin-bottom: 50px;
+            
+            
+
+            img{
+                width: $img-width;
+                height: $img-height;
+                margin: 0 auto;
+                
+                
+                
+            }
+        }
+        .text{
+            h3{
+                text-align: center;
+
+            }
+
+        }
+        h3{
+            text-align: center;
+            margin-top: 20px;
+        }
+        .inputs{
+            width: 100%;
+            text-align: center;
+            margin-top: 20px;
+            input{
+                width: 50px;
+                height: 35px;
+                font-size: 20px;
+                text-align: center;
+                background-color: rgb(10, 120, 0);
+                color: rgb(238, 255, 221);
+                border: none;
+                border-radius: 10px;
+                
+            }
+        }
+        .audio{
+            width: 100%;
+            display: flex;
+            audio{
+                margin: 0 auto;
+                margin-top: 30px;
+                
+
+            }
+        }
+        .btn-div{
+            float: right;
+            width: 80px;
+            margin-top: 0px;
+            margin-right: 20px;
+            position: relative;
+            bottom: 16px;
+            
+
+            button{
+                font-size: 25px;
+                width: 100%;
+                height: 100%;
+                margin: 0 auto;
+                color: blue;
+                border: none;background-color: rgb(240, 240, 245);
+                cursor: pointer;
+                background-color: rgba(194, 194, 194, 0.204);
+                border-radius: 10px;
+                padding: 3px 8px;
+                
+            }
+        }
+
+        .vraag-con{
+            .vraag{
+                //background-color: red;
+                padding: 30px 5px;
+            }
+            .div-input{
+                display: flex;
+                margin-bottom: 50px;
+                .question-input{
+                    background-color: rgba(130, 255, 130, 0.516);
+                    margin: 0 auto;
+                    height: 32px;
+                    width: 300px;
+                    border: 1px solid black;
+                    font-size: 22px;
+    
+                }
+            }
+        }
+    }
+    .numbers-puzzle-img{
+        width: 100%;
+        
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        margin-top: 20px;
+        img{
+            margin: 0 auto;
+            border-radius: 10px;
+            width: 60%;
+            height: 350px;
+            
+        }
+    }
+}
+
+.hidden{
+    display: none;
+}
+.block{
+    display: block;
+}
+.flex{
+    display: flex;
+}
+.grid{
+    display: grid;
+}
