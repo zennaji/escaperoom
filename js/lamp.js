@@ -10,7 +10,7 @@ const question3 = document.querySelector('.question3');
 const input3 = document.querySelector('.question3 input');
 const ok3 = document.querySelector('.question3 button');
 ////
-const question4 = document.querySelector('.question3');
+const question4 = document.querySelector('.question4');
 
 ////
 const light = document.querySelectorAll('.lamp-container img');
@@ -39,7 +39,7 @@ ok2.addEventListener('click', function(){
     }
 })
 ok3.addEventListener('click', function(){
-    if(input3.value === "Yg3x"){
+    if(input3.value === "Yg3x59bgf"){
         
         question3.classList.add("hidden");
         question4.classList.remove("hidden");
