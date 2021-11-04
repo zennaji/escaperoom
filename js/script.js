@@ -1,12 +1,9 @@
 import {updateTimer, getTimer} from './timer.js';
 import {checkQuestionAnswer} from './questionPuzzle.js';
 import {checkPinAnswer} from './numbersPuzzle.js';
-<<<<<<< HEAD
 import {containerAnime, animetQuestionImg, animetNumImg} from './animation.js';
-=======
-import {containerAnime} from './animation.js';
+// import {containerAnime} from './animation.js';
  
->>>>>>> 77fe1c4167fa66c641031a1318aef36dc3f564f7
 
 const intro = document.querySelector("#intro");
 const puzzels = document.querySelectorAll("#puzzel");
