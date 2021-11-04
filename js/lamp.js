@@ -12,7 +12,6 @@ const ok3 = document.querySelector('.question3 button');
 ////
 const light = document.querySelectorAll('.lamp-container img');
 
-
 /////
 ok1.addEventListener('click', function(){
     if(input1.value === "Sint Nicolaas"){
