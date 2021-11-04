@@ -74,16 +74,49 @@
     </div>
 
     <!-- puzzel_2 -->
-    <div class="container hidden" id="puzzel">
-        <h1>2</h1>
+    <div class="container p2 hidden" id="puzzel">
+        <div class="container_puzzle2">
+            <div class="questions">
+                <div class="question1 q">
+                    <p>Beantwoord deze vraag om een andere vraag te genereren! </p>
+                    <h3>Waar komt de Kerstman vandaan?</h3>
+                    <input type="text">
+                    <button>OK</button>
+                </div>
+                <div class="question2 hidden q">
+                    <p>probeer eerst om de keys te vinden, en dan de vraag beantwoorden </p>
+                    <h3> In welk jaar werd de "1x" "x3" verzonden?</h3>
+                    <input type="text">
+                    <button>OK</button>
+                </div>
+                 <div class="question3 hidden q">
+                    <p>Gefeliciteerd je hebt de lamp aan gedaan</p>
+                    <h3> Nu vul de key in om door te gaan !</h3>
+                    <input type="text">
+                    <button>OK</button>
+                </div>
+            </div>
+            
+            
+            <div class="lamp-container">
+                <img src="img/lamp.png" class="lamp">
+                <img src="img/light.png" class="light hidden">
+                <p> 1843</p>
+            </div>
+            
+        </div>
+        <p class="answer" >18<br>eerste</p>
+       
 
 
 
 
         <div class="btn-div">
+            <p class="answer" >43<br>kerstkaart </p>
             <button id="next-btn">Next</button>
+           
         </div>
-
+        
     </div>
 
     <!-- puzzel_3 -->
@@ -115,7 +148,7 @@
     </div>
 
     <!-- afsluiting -->
-    <div class="container " id="afsluiting">
+    <div class="container hidden" id="afsluiting">
 
         
 
@@ -152,6 +185,8 @@
 
 
     <script type="module" src="./js/script.js"></script>
+    <script type="module" src="./js/lamp.js"></script>
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
