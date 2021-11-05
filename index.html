@@ -15,12 +15,10 @@
 <body>
     <!-- Timer -->
 
-    <p class="timer hidden">20:00</p>
+    <p class="timer hidden">10:00</p>
 
     <!-- Intro -->
     <div class="container " id="intro">
-
-
         <div class="img">
             <img src="./img/kerst3.gif" alt="">
         </div>
@@ -40,10 +38,6 @@
             <button id="start-btn">Start</button>
         </div>
 
-
-
-
-
     </div>
 
     <!-- puzzel_1 -->
@@ -59,17 +53,11 @@
             <div class="div-input">
                 <input class="question-input" type="text">
             </div>
-
-            
-
-            
         </div>
 
         <div class="btn-div">
             <button id="next-btn">Next</button>
         </div>
-
-        
 
     </div>
 
@@ -86,6 +74,8 @@
                 </div>
                 <div class="question2 hidden q">
                     <p>probeer eerst om de keys te vinden, en dan de vraag beantwoorden </p>
+
+                    <p> De antwoord kunt u vinden door goed in dit pagina te zoeken </p>
                     <h3> In welk jaar werd de "1x" "x3" verzonden?</h3>
                     <input type="text">
                     <button>OK</button>
@@ -96,32 +86,29 @@
                     <input type="text">
                     <button>OK</button>
                 </div>
+                <div class="question4 hidden q">
+                    <h3> Nu mag je wel door gaan !</h3>
+                </div>
             </div>
-            
             
             <div class="lamp-container">
                 <img src="img/lamp.png" class="lamp">
                 <img src="img/light.png" class="light hidden">
-                <p> 1843</p>
+                <p>Yg3x59bgf</p>
             </div>
             
         </div>
         <p class="answer" >18<br>eerste</p>
        
-
-
-
-
-        <div class="btn-div">
+        <div class="btn-div p-2-next-div">
             <p class="answer" >43<br>kerstkaart </p>
-            <button id="next-btn">Next</button>
+            <button  id="next-btn" class="p-2-next">Next</button>
            
         </div>
         
     </div>
 
     <!-- puzzel_3 -->
-    
 
     <div class="container hidden" id="puzzel">
         <div class="numbers-puzzle-img">
@@ -138,10 +125,6 @@
             <input type="number" id="num-input">
         </div>
 
-        
-
-        
-
         <div class="btn-div" >
             <button id="next-btn">Next</button>
         </div>
@@ -151,9 +134,7 @@
     <!-- afsluiting -->
     <div class="container hidden" id="afsluiting">
 
-        
-
-        <div class="good-result">
+        <div class="good-result ">
             
             <div class="good-result-div-img">
                 <img src="./img/good_result_img.gif" alt="">
@@ -166,28 +147,18 @@
                 </h2>
             </div>
             
-
-
         </div>
         <div class="bad-result hidden">
-            <h1> slecht </h1>
+            
+            <div class="bad-result-div-img">
+                <img src="./img/bad_result_img.jpg" alt="">
+            </div>
+            
+            <p> De tijd is voorbij </p>
         </div>
-
-
     </div>
 
-
-
-
-
-
-
-    
-
-
     <script type="module" src="./js/script.js"></script>
-    <script type="module" src="./js/lamp.js"></script>
-
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
