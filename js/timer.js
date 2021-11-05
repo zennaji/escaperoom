@@ -1,7 +1,7 @@
 //import {stopTimer} from './script.js';
 
 const timer = document.querySelector(".timer");
-const timerStart = .5;
+const timerStart = 5;
 let time = timerStart * 60;
 
 

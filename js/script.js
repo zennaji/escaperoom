@@ -47,7 +47,7 @@ startBtn.addEventListener('click', function () {
             }
 
         }
-    }, 10000)
+    }, 100000)
 
 })
 nextBtns[0].addEventListener('click', function () {
