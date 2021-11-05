@@ -18,7 +18,7 @@ const key = document.querySelector('.lamp-container p');
 /////
 
 export function checkQuestion1(){
-    if(input1.value.toLowerCase() === "sint nicolaas"){
+    if(input1.value.toLowerCase() === "sint nicolaas" || input1.value.toLowerCase() === "noordpool"){
         question1.classList.add("hidden");
         question2.classList.remove("hidden");
     }

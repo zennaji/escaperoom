@@ -49,7 +49,7 @@ export function animetQuestionImg(){
 }
 
 export function animetNumImg(){
-    console.log("klkklkkllklkkkll");
+    
     anime({       
         targets: ".num-img",
         //height: '230px',
@@ -57,7 +57,7 @@ export function animetNumImg(){
         delay: 250,
         rotate: {
             value: 720,
-            duration: 1000,
+            duration: 5000,
             easing: 'easeInOutSine',
         },
         scale: {
