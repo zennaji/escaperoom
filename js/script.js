@@ -35,9 +35,9 @@ startBtn.addEventListener('click', function () {
     timerId = setInterval(updateTimer, 1000);
     animetQuestionImg();
 
-    //setInterval
+    //
     
-    setTimeout(function () {
+    setInterval(function () {
         if (updateTimer() === false) {
             for (let i = 0; i < puzzels.length; i++) {
                 getNext(puzzels[i], afsluiting);

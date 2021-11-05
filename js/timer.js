@@ -1,7 +1,7 @@
 //import {stopTimer} from './script.js';
 
 const timer = document.querySelector(".timer");
-const timerStart = 10;
+const timerStart = .5;
 let time = timerStart * 60;
 
 
@@ -22,14 +22,7 @@ export function updateTimer(){
    }
 
 
-//    console.log(stopTimer());
-   
-//    if(stopTimer() === true){
-//        console.log("Stop");
-//    }
-//    else{
-//        console.log("Ren");
-//    }
+
 }
 
 export function getTimer(){
